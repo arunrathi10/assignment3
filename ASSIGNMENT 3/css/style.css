@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+}
+#main_div{
+    background-image: url(../img/background\ image.jpg);
+    background-position: center; /*image in centre of page */
+    background-size: contain;
+    background-repeat: no-repeat; /*image will not repeat */
+    height: 700px; /*image is given a fixed height */
+}
+#space_div{
+    height: 395px;
+}
+#main_div > div > h1{
+    font-family: "Times New Roman", Times, serif; /*font family for my text*/
+    display: flex;
+    justify-content: center; /* used to centre content*/
+    align-items: center; /* also used to centre items*/
+    color: white;
+    letter-spacing: 15px; /* increase gap between letters */
+    font-size: 16px;
+}
+#john_logo{
+    height: 22px;
+}
+h2{
+    font-family: "Times New Roman", Times, serif; /*font family for my text*/
+    display: flex;
+    justify-content: center; /* used to centre content*/
+    align-items: center; /* also used to centre items*/
+    color: #bfd4dc;
+    letter-spacing: 3px;  /* increase gap between letters */
+    font-size: 13px;
+    margin-bottom: -1px;
+}
+/* content of all the text */
+#content_1{
+    display: flex;
+    align-items: center; /* also used to centre items*/
+    justify-content: center; /* used to centre content*/
+    text-align: center; /* also used to centre text*/
+    font-variant: small-caps; /* property in which height of capital letters is more and small letters are capitalized but small height*/
+    display: inline; /* uses space with it has content in only */ 
+}
+#div_1,#div_2,#div_3,#div_4,#div_5 {
+    width:430px;
+    margin-left: 34%;
+    font-size: 6.9px;
+    color: #3f7489;
+    margin-top: 2.5px;
+    font-family: Haettenschweiler, "Arial Narrow", Arial, sans-serif; /*font family for my text*/
+}
+
+/*my content of images , company and date and links*/
+#content_2{
+    display: flex;
+    align-items: center; /* also used to centre items*/
+    justify-content: center; /* used to centre content*/
+    text-align: center; /* also used to centre text*/
+    color: #3f7489;
+    margin-top: -10px;
+}
+#content_2 > #div_6 >img{
+    display: inline-block; /* uses space with it has content in only */ 
+    height: 50px;
+    aspect-ratio: 3/2; /* aspect ratio is used for making images of same ratio*/ 
+    object-fit: contain; /* used so that images dont get streched */
+}
+#content_2 > #div_9 >img{
+    display: inline-block;
+    height: 20px;
+    aspect-ratio: 3/2; /* aspect ratio is used for making images of same ratio*/ 
+    object-fit: contain; /* used so that images dont get streched */
+}
+
+/* using flex property */
+#content_2 > div{
+    width: 70px;
+}
+#content_2 > div + div{
+    width: 50px;
+}
+#content_2 > div + div + div{
+    width: 160px;
+}
+#content_2 > div + div + div + div{
+    width: 50px;
+}
+#content_2 > div + div + div + div + div{
+    width: 80px;
+}
+#content_2 > div + div + div + div + div + div{
+    width: 12px;
+}
+#div_8 > span{
+    color: #bfd4dc;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif; /*font family for my text*/
+    font-weight: 400; /* boldness of my characters */
+}
+a{
+    color: #3f7489;
+    font-size: 7px;
+    text-decoration: none; /* remove the line which is under the text*/
+}
+#div_7{
+    margin-left: -10px;
+}
+#div_10{
+    font-size: 7px;
+    margin-left: -15px;
+}
+/*making a small box*/
+#div_11{
+    height: 10px;
+    width: 1px;
+    background-color: #3f7489;
+}
+
+
+
+
+
+
+
+
+
